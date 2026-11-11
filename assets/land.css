@@ -1,0 +1,15 @@
+/* Land Units: own styles on top of the shared frame */
+.lu-cta{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
+.lu-gap{margin-top:12px}
+.lu-conv{grid-template-columns:1fr;align-items:end}
+@media (min-width:760px){.lu-conv{grid-template-columns:minmax(120px,1fr) 2fr auto 2fr}}
+.lu-swapbox{display:flex;align-items:flex-end}
+.lu-swapbox .btn{min-height:46px;width:100%}
+.big small{font:600 1rem var(--font);color:var(--soft);letter-spacing:0}
+.lu-mixed{margin:.4em 0}
+.lu-recent{font-size:.92rem;margin:12px 0 0}
+.lu-recent a{display:block;padding:8px 0;border-top:1px solid var(--line)}
+.lu-recent b{display:block;margin-bottom:4px}
+.grid a{flex-wrap:wrap}.grid a small{white-space:normal}
+.finder input[inputmode]{font-family:var(--mono)}
+.result p{margin:.3em 0}
